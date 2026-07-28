@@ -1,1 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Blossom Cafe</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body class="bg-light">
+
+<div class="container py-4">
+
+    <!-- Logo -->
+    <div class="text-center mb-3">
+        <img src="../assets/img/Logo.png"
+             alt="Logo Blossom Cafe"
+             width="130">
+    </div>
+
+    <!-- Judul -->
+    <h2 class="text-center fw-bold text-danger">
+        Dashboard Blossom Cafe
+    </h2>
+
+    <p class="text-center text-muted mb-5">
+        Sistem Absensi Karyawan
+    </p>
+
+    <!-- CARD STATISTIK -->
+    <div class="row g-4">
+
+        <div class="col-md-3">
+            <div class="card shadow border-0">
+                <div class="card-body text-center">
+
+                    <i class="fa-solid fa-users fa-2x text-primary mb-3"></i>
+
+                    <h5>Total Karyawan</h5>
+
+                    <h2 id="totalKaryawan">
+                        10
+                    </h2>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card shadow border-0">
+                <div class="card-body text-center">
+
+                    <i class="fa-solid fa-user-check fa-2x text-success mb-3"></i>
+
+                    <h5>Hadir</h5>
+
+                    <h2 id="hadir">
+                        7
+                    </h2>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card shadow border-0">
+                <div class="card-body text-center">
+
+                    <i class="fa-solid fa-user-clock fa-2x text-warning mb-3"></i>
+
+                    <h5>Izin</h5>
+
+                    <h2 id="izin">
+                        2
+                    </h2>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card shadow border-0">
+                <div class="card-body text-center">
+
+                    <i class="fa-solid fa-user-xmark fa-2x text-danger mb-3"></i>
+
+                    <h5>Alpha</h5>
+
+                    <h2 id="alpha">
+                        1
+                    </h2>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- GARIS -->
+    <hr class="my-5">
+
+    <!-- FORM KARYAWAN -->
+    <div class="card shadow border-0 mb-5">
+
+        <div class="card-header bg-danger text-white">
+
+            <h5 class="mb-0">
+                Tambah Data Karyawan
+            </h5>
+
+        </div>
+
+        <div class="card-body">
+
+            <div class="row">
+
+                <div class="col-md-4 mb-3">
+                    <label>Nama</label>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <label>Jabatan</label>
+                    <select class="form-select">
+                        <option>Barista</option>
+                        <option>Kasir</option>
+                        <option>Kitchen</option>
+                        <option>Supervisor</option>
+                    </select>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <label>Shift</label>
+                    <select class="form-select">
+                        <option>Pagi</option>
+                        <option>Siang</option>
+                        <option>Malam</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <button class="btn btn-danger">
+                Simpan
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
