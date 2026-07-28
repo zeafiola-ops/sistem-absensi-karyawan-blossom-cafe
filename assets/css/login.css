@@ -14,3 +14,30 @@
     width:420px;
     border-radius:20px;
 }
+.login-card{
+
+    background:#fff;
+
+    border:none;
+
+}
+
+.login-card img{
+
+    width:100px;
+
+}
+
+.btn-danger{
+
+    background:#EC407A;
+
+    border:none;
+
+}
+
+.btn-danger:hover{
+
+    background:#D81B60;
+
+}
