@@ -1,1 +1,16 @@
+/* =====================================
+   STYLE UTAMA
+   Sistem Absensi Karyawan Blossom Cafe
+===================================== */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFF5F7;
+    color: #333;
+}
